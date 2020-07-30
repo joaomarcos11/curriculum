@@ -1,0 +1,106 @@
+{
+  "personInfo": {
+    "name": {
+      "full": "João Marcos Lucena Fonseca",
+      "first": "João Marcos",
+      "last": "Lucena Fonseca"
+    },
+    "address": "Av. Pombal, 610, Manaíra",
+    "address2": "58038-241, Apto 401",
+    "city": "João Pessoa",
+    "state": "Paraíba",
+    "uf": "PB",
+    "contact": {
+      "email": "joaomarcos11.tech@gmail.com",
+      "phone": "(83) 99972-0672"
+    },
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/jo%C3%A3o-marcos-lucena-da-fonseca-6b9952192/",
+      "github": "https://github.com/joaomarcos11"
+    }
+  },
+  "aboutme": {
+    "title": "Sobre mim",
+    "description": "A imersão no mundo da tecnologia tem sido algo muito gratificante. As experiências em trabalho em equipe e no desenvolvimento de tarefas aumentam meu desejo de aprender cada vez mais. No curso de Engenharia Civil adquiri habilidades importantes para minha construção profissional, bem como a experiência de viver fora do país vivenciando outra cultura e convivendo com pessoas do mundo inteiro."
+  },
+  "goal": {
+    "title": "Objetivo",
+    "description": "Busco oportunidades para aprimorar minhas capacidades em programação, bem como aprender novas linguagens, ferramentas e técnicas relacionados ao desenvolvimento de tecnologias e de sistemas."
+  },
+  "experience": {
+    "title": "Experiência",
+    "company1": [
+      {
+        "title": "Fábrica de Software UbTech",
+        "start": "09/2019",
+        "end": "Presente",
+        "projects": [
+          {
+            "role": "Desenvolvedor Web",
+            "decription": "desenvolvimento de aplicativo de controle de presença em eventos via QR Code (BackEnd) **Melhorar"
+          },
+          {
+            "role": "Desenvolvedor Web e Gerente de Projetos",
+            "decription": "desenvolvimento de API RESTful para reconhecimento de faces e gestão de dados (BackEnd e Gestão de Projetos). **Melhorar"
+          }
+        ]
+      }
+    ],
+    "company2": [
+      {
+        "title": "Construtora Padrão",
+        "role": "Estagiário de Engenharia",
+        "start": "07/2017",
+        "end": "11/2017",
+        "description": "Escrever pequena descrição das atividades exercidas."
+      },
+      {
+        "title": "Eco Construções e Incorporações LTDA",
+        "role": "Estagiário de Engenharia",
+        "start": "08/2016",
+        "end": "12/2016",
+        "description": "Escrever pequena descrição das atividades exercidas."
+      }
+    ]
+  },
+  "degree": [
+    {
+      "title": "UNIPE",
+      "abreviation": "",
+      "course": "Sistemas para Internet",
+      "start": "02/2019",
+      "end": "12/2020",
+      "comments": "encher a linguica"
+    },
+    {
+      "title": "Universidade Federal da Paraíba",
+      "abreviation": "UFPB",
+      "course": "Engenharia Civil",
+      "start": "07/2011",
+      "end": "02/2018",
+      "comments": "encher a linguica falando sobre habilidades que aprendi voltada pra tecnologia"
+    },
+    {
+      "title": "Athlone Institute of Technology",
+      "abreviation": "AIT",
+      "course": "Bachelor in Civil Engineering",
+      "start": "08/2014",
+      "end": "07/2015",
+      "comments": "encher a linguica sobre habilidades de softskills"
+    }
+  ],
+  "skills": {
+    "language": ["Python", "JavaScript"],
+    "framework": ["Django", "NodeJS", "ReactJS"],
+    "database": ["Postgres", "MongoDB"],
+    "manager": ["Scrum", "Diagramas UML", "ProjectLibre"],
+    "others": ["Inglês avançado", "Git", "Docker"]
+  },
+  "certification": [
+    {
+      "title": "IGTI Bootcamp Desenvolvedor FullStack",
+      "hours": "148",
+      "comments": "encher a linguinça"
+    }
+  ]
+}
