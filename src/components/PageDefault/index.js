@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Header from '../Header';
-import Header from '../Footer';
+import Footer from '../Footer';
 
 const Main = styled.main`
   padding-top: 20px;

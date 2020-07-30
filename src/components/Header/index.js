@@ -1,5 +1,5 @@
 import React from 'react';
-import PersonalData from '..PersonalData';
+import PersonalData from '../PersonalData';
 import Links from '../Links';
 import Tabs from '../Tabs';
 

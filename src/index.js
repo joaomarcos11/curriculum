@@ -8,7 +8,7 @@ import Degree from './pages/Degree';
 import Certifications from './pages/Certifications';
 import Skills from './pages/Skills';
 
-import { BrowserRoute as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 ReactDOM.render(
   <Router>
