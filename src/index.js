@@ -14,10 +14,10 @@ ReactDOM.render(
   <Router>
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route exact path="/experience" component={Experience} />
       <Route exact path="/degree" component={Degree} />
-      <Route exact path="/certifications" component={Certifications} />
+      <Route exact path="/experience" component={Experience} />
       <Route exact path="/skills" component={Skills} />
+      <Route exact path="/certifications" component={Certifications} />
     </Switch>
     {/* <App /> */}
   </Router>,
