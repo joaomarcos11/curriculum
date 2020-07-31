@@ -86,7 +86,7 @@
     }
   ],
   "skills": {
-    "language": ["Python", "JavaScript"],
+    "language": ["Python", "JavaScript", "HTML", "CSS"],
     "framework": ["Django", "NodeJS", "ReactJS"],
     "database": ["Postgres", "MongoDB"],
     "manager": ["Scrum", "Diagramas UML", "ProjectLibre"],
