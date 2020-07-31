@@ -1,9 +1,7 @@
 import React from 'react';
-import data from '../../data/joaomarcos.json';
 import './AboutMe.css';
 
-function AboutMe() {
-  const { title, description } = data.aboutme;
+function AboutMe({ title, description }) {
   return (
     <div className="aboutme">
       <h1>{title}</h1>

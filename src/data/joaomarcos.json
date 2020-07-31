@@ -1,10 +1,6 @@
 {
   "personInfo": {
-    "name": {
-      "full": "João Marcos Lucena Fonseca",
-      "first": "João Marcos",
-      "last": "Lucena Fonseca"
-    },
+    "name": "João Marcos Lucena Fonseca",
     "address": "Av. Pombal, 610, Manaíra",
     "address2": "58038-241, Apto 401",
     "city": "João Pessoa",
@@ -29,7 +25,7 @@
   },
   "experience": {
     "title": "Experiência",
-    "company1": [
+    "techcompany": [
       {
         "title": "Fábrica de Software UbTech",
         "start": "09/2019",
@@ -37,16 +33,16 @@
         "projects": [
           {
             "role": "Desenvolvedor Web",
-            "decription": "desenvolvimento de aplicativo de controle de presença em eventos via QR Code (BackEnd) **Melhorar"
+            "description": "desenvolvimento de aplicativo de controle de presença em eventos via QR Code (BackEnd) **Melhorar"
           },
           {
             "role": "Desenvolvedor Web e Gerente de Projetos",
-            "decription": "desenvolvimento de API RESTful para reconhecimento de faces e gestão de dados (BackEnd e Gestão de Projetos). **Melhorar"
+            "description": "desenvolvimento de API RESTful para reconhecimento de faces e gestão de dados (BackEnd e Gestão de Projetos). **Melhorar"
           }
         ]
       }
     ],
-    "company2": [
+    "engcompany": [
       {
         "title": "Construtora Padrão",
         "role": "Estagiário de Engenharia",
@@ -63,7 +59,7 @@
       }
     ]
   },
-  "degree": [
+  "graduation": [
     {
       "title": "UNIPE",
       "abreviation": "",

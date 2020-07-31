@@ -1,27 +1,27 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Tabs.css';
+import Tab from '../Tab';
 
 function Tabs() {
   return (
-    <div className="tabsDiv">
-      <ul className="tabs">
-        <li>
-          <a href="">Home</a>
-        </li>
-        <li>
-          <a href="">Graduação</a>
-        </li>
-        <li>
-          <a href="">Experiência</a>
-        </li>
-        <li>
-          <a href="">Habilidades</a>
-        </li>
-        <li>
-          <a href="">Certificados</a>
-        </li>
-      </ul>
-    </div>
+    <nav className="tabsnav">
+      <Tab as={Link} to="/">
+        Home
+      </Tab>
+      <Tab as={Link} to="/graduations">
+        Graduação
+      </Tab>
+      <Tab as={Link} to="/experiences">
+        Experiência
+      </Tab>
+      <Tab as={Link} to="/skills">
+        Habilidades
+      </Tab>
+      <Tab as={Link} to="/certifications">
+        Certificados
+      </Tab>
+    </nav>
   );
 }
 

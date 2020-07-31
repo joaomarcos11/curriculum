@@ -1,12 +1,8 @@
 import React from 'react';
 import photo from '../../assets/image/joaomarcos.jpg';
-import data from '../../data/joaomarcos.json';
 import './PersonalData.css';
 
-function PersonalData() {
-  const { full } = data.personInfo.name;
-  const { phone, email } = data.personInfo.contact;
-  const { address, address2, city, uf } = data.personInfo;
+function PersonalData({ name, address, address2, city, uf, phone, email }) {
   return (
     <div className="personalData">
       <div className="image">
@@ -16,7 +12,7 @@ function PersonalData() {
         <label>
           Nome:
           <br />
-          <span>{full}</span>
+          <span>{name}</span>
         </label>
         <label>
           Endereço:

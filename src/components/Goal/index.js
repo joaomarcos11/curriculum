@@ -1,9 +1,7 @@
 import React from 'react';
-import data from '../../data/joaomarcos.json';
 import './Goal.css';
 
-function Goal() {
-  const { title, description } = data.goal;
+function Goal({ title, description }) {
   return (
     <div className="goal">
       <h1>{title}</h1>
