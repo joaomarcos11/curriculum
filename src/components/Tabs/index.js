@@ -18,8 +18,8 @@ function Tabs() {
       <Tab as={Link} to="/skills">
         Habilidades
       </Tab>
-      <Tab as={Link} to="/certifications">
-        Certificados
+      <Tab as={Link} to="/activities">
+        Atividades
       </Tab>
     </nav>
   );

@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import Home from './pages/Home';
 import Graduations from './pages/Graduations';
 import Experiences from './pages/Experiences';
-import Certifications from './pages/Certifications';
+import Activities from './pages/Activities';
 import Skills from './pages/Skills';
 
 import './index.css';
@@ -18,7 +18,7 @@ ReactDOM.render(
       <Route exact path="/graduations" component={Graduations} />
       <Route exact path="/experiences" component={Experiences} />
       <Route exact path="/skills" component={Skills} />
-      <Route exact path="/certifications" component={Certifications} />
+      <Route exact path="/activities" component={Activities} />
     </Switch>
   </Router>,
   document.getElementById('root')

@@ -66,7 +66,7 @@
       "course": "Sistemas para Internet",
       "start": "02/2019",
       "end": "12/2020",
-      "comments": "encher a linguica"
+      "description": "encher a linguica"
     },
     {
       "title": "Universidade Federal da Paraíba",
@@ -74,7 +74,7 @@
       "course": "Engenharia Civil",
       "start": "07/2011",
       "end": "02/2018",
-      "comments": "encher a linguica falando sobre habilidades que aprendi voltada pra tecnologia"
+      "description": "encher a linguica falando sobre habilidades que aprendi voltada pra tecnologia"
     },
     {
       "title": "Athlone Institute of Technology",
@@ -82,7 +82,7 @@
       "course": "Bachelor in Civil Engineering",
       "start": "08/2014",
       "end": "07/2015",
-      "comments": "encher a linguica sobre habilidades de softskills"
+      "description": "encher a linguica sobre habilidades de softskills"
     }
   ],
   "skills": {
@@ -92,12 +92,21 @@
     "manager": ["Scrum", "Diagramas UML", "ProjectLibre"],
     "others": ["Inglês avançado", "Git", "Docker"]
   },
-  "certification": [
-    {
-      "title": "IGTI Bootcamp Desenvolvedor FullStack",
-      "hours": "148",
-      "comments": "encher a linguinça"
-    }
-  ],
+  "activities": {
+    "certification": [
+      {
+        "title": "IGTI Bootcamp Desenvolvedor FullStack",
+        "hours": "148",
+        "description": "encher a linguinça"
+      }
+    ],
+    "portfolio": [
+      {
+        "title": "Curriculum",
+        "url": "https://github.com/joaomarcos11/curriculum",
+        "description": "encher a linguinça"
+      }
+    ]
+  },
   "license": "Licença Aplicação React"
 }

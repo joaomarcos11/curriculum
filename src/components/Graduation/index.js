@@ -7,7 +7,7 @@ function Graduation() {
   return (
     <div className="graduations">
       <h1>Graduações</h1>
-      {graduation.map(({ title, course, start, end, comments }, index) => {
+      {graduation.map(({ title, course, start, end, description }, index) => {
         return (
           <div key={`${index}${title}`}>
             <h2>
@@ -17,7 +17,7 @@ function Graduation() {
               <strong>Período:</strong> De {start} até {end}
             </span>
             <h4>Comentários:</h4>
-            <p>{comments}</p>
+            <p>{description}</p>
           </div>
         );
       })}
