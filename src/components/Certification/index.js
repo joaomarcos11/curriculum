@@ -1,7 +1,7 @@
 import React from 'react';
 import data from '../../data/joaomarcos.json';
 
-function Certifications() {
+function Certification() {
   const { certification } = data.activities;
   return (
     <div className="certifications">
@@ -19,4 +19,4 @@ function Certifications() {
   );
 }
 
-export default Certifications;
+export default Certification;

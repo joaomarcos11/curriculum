@@ -6,9 +6,9 @@ import Tab from '../Tab';
 function Tabs() {
   return (
     <nav className="tabsnav">
-      <Tab as={Link} to="/">
+      {/* <Tab as={Link} to="/">
         Home
-      </Tab>
+      </Tab> */}
       <Tab as={Link} to="/graduations">
         Graduação
       </Tab>
@@ -18,8 +18,11 @@ function Tabs() {
       <Tab as={Link} to="/skills">
         Habilidades
       </Tab>
-      <Tab as={Link} to="/activities">
-        Atividades
+      <Tab as={Link} to="/certifications">
+        Certificados
+      </Tab>
+      <Tab as={Link} to="/portfolio">
+        Portfólio
       </Tab>
     </nav>
   );

@@ -1,11 +1,11 @@
 import React from 'react';
 import data from '../../data/joaomarcos.json';
 
-function Portfolio() {
+function PersonalProject() {
   const { portfolio } = data.activities;
   return (
-    <div className="portfolio">
-      <h2>Portfolio</h2>
+    <div className="personalProject">
+      <h1>Portfolio</h1>
       {portfolio.map(({ title, url, description }, index) => {
         return (
           <div key={`${title}${index}`}>
@@ -19,4 +19,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default PersonalProject;
