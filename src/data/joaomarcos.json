@@ -28,15 +28,16 @@
     "techcompany": [
       {
         "title": "Fábrica de Software UbTech",
+        "role": "Desenvolvedor Web",
         "start": "09/2019",
         "end": "Presente",
         "projects": [
           {
-            "role": "Desenvolvedor Web",
+            "title": "Projeto QR Code",
             "description": "desenvolvimento de aplicativo de controle de presença em eventos via QR Code (BackEnd) **Melhorar"
           },
           {
-            "role": "Desenvolvedor Web e Gerente de Projetos",
+            "title": "Projeto Reconhecimento Facial",
             "description": "desenvolvimento de API RESTful para reconhecimento de faces e gestão de dados (BackEnd e Gestão de Projetos). **Melhorar"
           }
         ]
