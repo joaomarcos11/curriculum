@@ -1,0 +1,39 @@
+.btn-tab {
+  width: 16.66%;
+}
+
+
+.btn-tab button {
+  all: unset;
+  cursor: pointer;
+  border: 1px solid #000;
+
+  width: 100%;
+  height: 40px;
+  background-color: var(--color-secondary);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn-tab button:hover {
+  background-color: var(--color-secondary-lighter);
+}
+
+.btn-tab button .btn-border {
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-tab button img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}

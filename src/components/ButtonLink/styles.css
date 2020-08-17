@@ -1,0 +1,13 @@
+.btn-link button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100px;
+  height: 40px;
+}
+
+.btn-link button img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}

@@ -25,46 +25,51 @@ function Home() {
 
       <header>
         <div className="header-principal">
-          <div className="header-img">
+
+          <div className="person">
             <img src={personImg} alt="João Marcos" />
+            <h1>
+              João Marcos <br/> 
+              Lucena Fonseca
+            </h1>
           </div>
-          <div className="header-title">
-            <h1>João Marcos Lucena Fonseca</h1>
+
+          <div className="person-info">
+            <div className="primary-info">
+              <PersonalData 
+                information='Av. Pombal, 610, 58038-241'
+                iconLink={home}
+                iconName='Endereço'
+                />
+              <PersonalData 
+                information='João Pessoa-PB'
+                iconLink={city}
+                iconName='Cidade'
+                />
+              <PersonalData 
+                information='joaomarcos11.tech@gmail.com'
+                iconLink={email}
+                iconName='Email'
+                />
+              <PersonalData
+                information='(83) 9 9972-0672'
+                iconLink={phone}
+                iconName='Celular'
+                />
+            </div>
+            <div className="secondary-info">
+              <ButtonLink 
+                iconLink={linkedin}
+                iconName='Linkedin'
+                description='LinkedIn'
+              />
+              <ButtonLink 
+                iconLink={github}
+                iconName='Github'
+                description='GitHub'
+              />
+            </div>
           </div>
-        </div>
-
-        <div className="header-personInfo">
-          <PersonalData 
-            description='Av. Pombal, 610, 58038-241'
-            iconLink={home}
-            iconName='Endereço'
-          />
-          <PersonalData 
-            description='João Pessoa-PB'
-            iconLink={city}
-            iconName='Cidade'
-          />
-          <PersonalData 
-            description='joaomarcos11.tech@gmail.com'
-            iconLink={email}
-            iconName='Email'
-          />
-          <PersonalData
-            description='(83) 9 9972-0672'
-            iconLink={phone}
-            iconName='Celular'
-          />
-        </div>
-
-        <div className="header-buttons">
-          <ButtonLink 
-            iconLink={linkedin}
-            iconName='Linkedin'
-          />
-          <ButtonLink 
-            iconLink={github}
-            iconName='Github'
-          />
         </div>
       </header>
 
@@ -72,18 +77,18 @@ function Home() {
         <div className="home-nav">
           <ButtonTab
             iconLink={home}
-            iconName='Experiência profissional'
-            description='Experiência profissional'
+            iconName='Home'
+            description='Home'
             />
           <ButtonTab
             iconLink={experience}
             iconName='Experiência profissional'
-            description='Experiência profissional'
+            description='Experiência'
             />
           <ButtonTab
             iconLink={graduation}
             iconName='Formação acadêmica'
-            description='Formação acadêmica'
+            description='Formação'
             />
           <ButtonTab
             iconLink={skills}

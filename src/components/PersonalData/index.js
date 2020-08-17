@@ -6,7 +6,9 @@ function PersonalData({ information, iconLink, iconName }) {
   return (
     <div className="personal-info">
       <span>{information}</span>
-      <img src={iconLink} alt={iconName} />
+      <div className="btn-border">
+        <img src={iconLink} alt={iconName} />
+      </div>
     </div>
   );
 }

@@ -4,13 +4,13 @@ import './styles.css';
 
 function ButtonTab({ iconLink, iconName, description }) {
   return(
-    <div className="tab">
+    <div className="btn-tab">
       {/* vai ser link aqui eu acredito */}
       <button type="button"> 
-        <div className="btn-tab">
-          <img src={iconLink} alt={iconName} />
           <span>{description}</span>
-        </div>
+          <div className="btn-border">
+            <img src={iconLink} alt={iconName} />
+          </div>
       </button>
     </div>
   );
